@@ -57,7 +57,7 @@
 
 /datum/reagent/nutriment/protein // Bad for Skrell!
 	name = "animal protein"
-	taste_description = "some sort of protein"
+	taste_description = "savory, chewy, real meat"
 	color = "#440000"
 
 /datum/reagent/nutriment/protein/affect_ingest(var/mob/living/carbon/M, var/alien, var/removed)
@@ -126,7 +126,7 @@
 /datum/reagent/nutriment/coco
 	name = "Coco Powder"
 	description = "A fatty, bitter paste made from coco beans."
-	taste_description = "bitterness"
+	taste_description = "dark bitterness"
 	taste_mult = 1.3
 	reagent_state = SOLID
 	nutriment_factor = 5
@@ -135,7 +135,7 @@
 /datum/reagent/nutriment/soysauce
 	name = "Soysauce"
 	description = "A salty sauce made from the soy plant."
-	taste_description = "umami"
+	taste_description = "salt, sweetness, and savory thick soybean"
 	taste_mult = 1.1
 	reagent_state = LIQUID
 	nutriment_factor = 2
@@ -144,7 +144,7 @@
 /datum/reagent/nutriment/ketchup
 	name = "Ketchup"
 	description = "Ketchup, catsup, whatever. It's tomato paste."
-	taste_description = "ketchup"
+	taste_description = "excessively sweet thick tomato with a hint of vinegar"
 	reagent_state = LIQUID
 	nutriment_factor = 5
 	color = "#731008"
@@ -152,7 +152,7 @@
 /datum/reagent/nutriment/barbecue
 	name = "Barbecue Sauce"
 	description = "Barbecue sauce for barbecues and long shifts."
-	taste_description = "barbecue"
+	taste_description = "generically sweet and smokey"
 	reagent_state = LIQUID
 	nutriment_factor = 5
 	color = "#4f330f"
@@ -160,7 +160,7 @@
 /datum/reagent/nutriment/garlicsauce
 	name = "Garlic Sauce"
 	description = "Garlic sauce, perfect for spicing up a plate of garlic."
-	taste_description = "garlic"
+	taste_description = "intense earthy flavors, acidity; the mouth-filling flavor of garlic"
 	reagent_state = LIQUID
 	nutriment_factor = 4
 	color = "#d8c045"
@@ -177,7 +177,7 @@
 /datum/reagent/nutriment/cherryjelly
 	name = "Cherry Jelly"
 	description = "Totally the best. Only to be spread on foods with excellent lateral symmetry."
-	taste_description = "cherry"
+	taste_description = "tart cherries, reminiscient of earthly climates"
 	taste_mult = 1.3
 	reagent_state = LIQUID
 	nutriment_factor = 1
@@ -186,7 +186,7 @@
 /datum/reagent/nutriment/cornoil
 	name = "Corn Oil"
 	description = "An oil derived from various types of corn."
-	taste_description = "slime"
+	taste_description = "liquid sugar-grease"
 	taste_mult = 0.1
 	reagent_state = LIQUID
 	nutriment_factor = 20
@@ -210,7 +210,7 @@
 /datum/reagent/nutriment/virus_food
 	name = "Virus Food"
 	description = "A mixture of water, milk, and oxygen. Virus cells can use this mixture to reproduce."
-	taste_description = "vomit"
+	taste_description = "bitterly painful acidity with a hint of bile"
 	taste_mult = 2
 	reagent_state = LIQUID
 	nutriment_factor = 2
@@ -226,14 +226,14 @@
 /datum/reagent/nutriment/mint
 	name = "Mint"
 	description = "Also known as Mentha."
-	taste_description = "mint"
+	taste_description = "refreshingly cool with a hint of mint"
 	reagent_state = LIQUID
 	color = "#cf3600"
 
 /datum/reagent/lipozine // The anti-nutriment.
 	name = "Lipozine"
 	description = "A chemical compound that causes a powerful fat-burning reaction."
-	taste_description = "mothballs"
+	taste_description = "like a grandmother's old closet"
 	reagent_state = LIQUID
 	color = "#bbeda4"
 	overdose = REAGENTS_OVERDOSE
@@ -270,7 +270,7 @@
 /datum/reagent/frostoil
 	name = "Frost Oil"
 	description = "A special oil that noticably chills the body. Extracted from Ice Peppers."
-	taste_description = "mint"
+	taste_description = "drinking a glass of ice-cold water after brushing your teeth"
 	taste_mult = 1.5
 	reagent_state = LIQUID
 	color = "#b31008"
@@ -288,7 +288,7 @@
 /datum/reagent/capsaicin
 	name = "Capsaicin Oil"
 	description = "This is what makes chilis hot."
-	taste_description = "hot peppers"
+	taste_description = "liquid pain"
 	taste_mult = 1.5
 	reagent_state = LIQUID
 	color = "#b31008"
@@ -491,7 +491,7 @@
 /datum/reagent/drink/juice/lemon
 	name = "Lemon Juice"
 	description = "This juice is VERY sour."
-	taste_description = "sourness"
+	taste_description = "citrically sour with a hint of sweet"
 	taste_mult = 1.1
 	color = "#afaf00"
 
@@ -501,7 +501,7 @@
 /datum/reagent/drink/juice/lime
 	name = "Lime Juice"
 	description = "The sweet-sour juice of limes."
-	taste_description = "unbearable sourness"
+	taste_description = "refreshingly sour with a blend of sweet and bitter"
 	taste_mult = 1.1
 	color = "#365e30"
 
@@ -557,7 +557,7 @@
 /datum/reagent/drink/juice/garlic
 	name = "Garlic Juice"
 	description = "Who would even drink this?"
-	taste_description = "bad breath"
+	taste_description = "oily vegetable sulfur"
 	nutrition = 1
 	color = "#eeddcc"
 
